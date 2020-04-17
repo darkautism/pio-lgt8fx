@@ -164,6 +164,13 @@ target_size = env.Alias(
     env.VerboseAction("$SIZEPRINTCMD", "Calculating size $SOURCE"))
 AlwaysBuild(target_size)
 
+# Set clock
+
+board_clock_source = env.subst("$BOARD_CLOCK_SOURCE")
+env.Replace(
+        BOARD_CLOCK_SOURCE="$BOARD_CLOCK_SOURCE"
+    )
+
 #
 # Target: Upload by default .hex file
 #

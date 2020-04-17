@@ -35,11 +35,14 @@ FRAMEWORK_DIR = platform.get_package_dir("framework-lgt8fx")
 
 assert isdir(FRAMEWORK_DIR)
 
+board_clock_source = board.get("build.clock_source", "1")
+
 CPPDEFINES = [
     ("F_CPU", "$BOARD_F_CPU"),
+    ("CLOCK_SOURCE", board_clock_source),
     "ARDUINO_ARCH_AVR",
     "ARDUINO_ARCH_LGT",
-    ("ARDUINO", 10808)
+    ("ARDUINO", 10812)
 ]
 
 if "build.usb_product" in board:
