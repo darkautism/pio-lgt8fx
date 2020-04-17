@@ -1,0 +1,6 @@
+{
+    "name": "framework-lgt8fx",
+    "description": "Board Package for Logic Green LGT8F328P LGT8F328D and LGT8F88D",
+    "url": "https://github.com/dbuezas/lgt8fx",
+    "version": "__VERSION__"
+}
