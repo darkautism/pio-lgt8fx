@@ -1,15 +1,15 @@
 {
   "build": {
-    "extra_flags": "-DLRDUINO_AVR_LGT -DLRDUINO_AVR_LGT8F328P",
+    "extra_flags": "-DLRDUINO_AVR -DLRDUINO_AVR_LGT8F328P",
     "f_cpu": "32000000L",
     "mcu": "atmega328p",
-    "variant": "standard"
+    "variant": "lgt8fx8p"
   },
   "bootloader": {
     "file": "lgt8fx8p/optiboot_lgt8f328p.hex"
   },
   "frameworks": [
-    "lgt8fx"
+    "arduino"
   ],
   "name": "LGT8F328P",
   "upload": {
@@ -17,7 +17,7 @@
     "maximum_size": 29696,
     "protocol": "arduino",
     "require_upload_port": true,
-    "speed": 115200
+    "speed": 57600
   },
   "url": "http://www.lgtic.com/lgt8fx8p/",
   "vendor": "LogicGreen"
