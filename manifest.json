@@ -6,13 +6,5 @@
             "url": "https://github.com/darkautism/pio-lgt8fx/releases/download/1.0.5/lgt8fx.tar.gz",
             "version": "1.0.5"
         }
-    ],
-    "tool-binutils": [
-        {
-            "sha1": "bd6b9d55ea09d51e90ae97290b280faa9cda77b2",
-            "system": "*",
-            "url": "https://github.com/darkautism/pio-lgt8fx/releases/download/1.0.5/binutils.tar.gz",
-            "version": "2.34-1"
-        }
     ]
 }
