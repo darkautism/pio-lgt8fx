@@ -26,7 +26,7 @@
     "packages": {
         "toolchain-atmelavr": {
             "type": "toolchain",
-            "version": "~1.50400.0"
+            "version": ">=1.70300.191015"
         },
         "framework-lgt8fx": {
             "type": "framework",
@@ -37,6 +37,10 @@
             "type": "uploader",
             "optional": true,
             "version": "~1.60300.0"
+        },
+        "tool-binutils": {
+            "optional": true,
+            "version": "~2.34"
         }
     }
 }
