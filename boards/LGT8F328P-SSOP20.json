@@ -1,0 +1,26 @@
+{
+  "build": {
+    "extra_flags": "-DARDUINO_ARCH_AVR -DARDUINO_AVR_LARDU_328P -DAVR_LARDU_328E",
+    "f_cpu": "32000000L",
+    "clock_source": "1",
+    "core": "lgt8f",
+    "mcu": "atmega328p",
+    "variant": "lgt8fx8ds20"
+  },
+  "bootloader": {
+    "file": "lgt8fx8e/optiboot_lgt8f328d.hex"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "LGT8F328P-SSOP20",
+  "upload": {
+    "maximum_ram_size": 2048,
+    "maximum_size": 29696,
+    "protocol": "arduino",
+    "require_upload_port": true,
+    "speed": 57600
+  },
+  "url": "http://www.lgtic.com/lgt8fx8p/",
+  "vendor": "LogicGreen"
+}
