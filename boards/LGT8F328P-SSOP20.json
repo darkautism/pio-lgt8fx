@@ -5,10 +5,10 @@
     "clock_source": "1",
     "core": "lgt8f",
     "mcu": "atmega328p",
-    "variant": "lgt8fx8ps20"
+    "variant": "lgt8fx8ds20"
   },
   "bootloader": {
-    "file": "lgt8fx8ps20/optiboot_lgt8f328ps20.hex"
+    "file": "lgt8fx8e/optiboot_lgt8f328d.hex"
   },
   "frameworks": [
     "arduino"
