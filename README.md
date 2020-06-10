@@ -11,7 +11,17 @@ Logic Green is a very very very cheap MCUs.
 # Usage
 
 - Install platformIO
-- Install this platform into `%USER%\.platformio\platforms\`
+- Add an env like this to platformio.ini
+```ini
+[env:LGT8F328P]
+platform = https://github.com/darkautism/pio-lgt8fx.git
+board = LGT8F328P
+framework = arduino
+
+board_build.f_cpu=16000000L
+;internal clock
+board_build.clock_source=1
+```
 
 # Change cpu clock
 
