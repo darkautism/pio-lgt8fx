@@ -6,17 +6,13 @@
     "homepage": "https://github.com/darkautism/pio-lgt8fx",
     "license": "Apache-2.0",
     "engines": {
-        "platformio": "~3.0.0"
+        "platformio": "^5"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/darkautism/pio-lgt8fx.git"
     },
-    "version": "1.0.0",
-    "packageRepositories": [
-        "http://dl.platformio.org/packages/manifest.json",
-        "https://raw.githubusercontent.com/darkautism/pio-lgt8fx/master/manifest.json"
-    ],
+    "version": "1.0.1",
     "frameworks": {
         "arduino": {
             "package": "framework-lgt8fx",
