@@ -2,6 +2,7 @@
   "build": {
     "extra_flags": "-DARDUINO_ARCH_AVR -DARDUINO_AVR_LARDU_328D -DAVR_LARDU_328E",
     "f_cpu": "32000000L",
+    "f_osc": "32000000L",
     "clock_source": "1",
     "core": "lgt8f",
     "mcu": "atmega328p",
