@@ -1,3 +1,5 @@
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/darkautism/platform/lgt8f.svg)](https://registry.platformio.org/platforms/darkautism/lgt8f)
+
 # Logic Green: development platform for [PlatformIO](http://platformio.org/)
 
 Logic Green is a very very very cheap MCUs.
