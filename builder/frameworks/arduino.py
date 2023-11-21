@@ -36,9 +36,11 @@ FRAMEWORK_DIR = platform.get_package_dir("framework-lgt8fx")
 assert isdir(FRAMEWORK_DIR)
 
 board_clock_source = board.get("build.clock_source", "1")
+board_f_osc = board.get("build.f_osc", "build.f_cpu")
 
 CPPDEFINES = [
     ("F_CPU", "$BOARD_F_CPU"),
+    ("F_OSC", board_f_osc),
     ("CLOCK_SOURCE", board_clock_source),
     "ARDUINO_ARCH_AVR",
     "ARDUINO_ARCH_LGT",
