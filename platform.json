@@ -12,7 +12,7 @@
         "type": "git",
         "url": "https://github.com/darkautism/pio-lgt8fx.git"
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "frameworks": {
         "arduino": {
             "package": "framework-lgt8fx",
